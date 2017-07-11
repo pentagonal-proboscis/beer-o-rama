@@ -78,3 +78,41 @@ This will run the automated build process, start up a webserver, and open the ap
 |webpack| Bundler with plugin system and integrated development server |
 |webpack-dev-middleware| Adds middleware support to webpack |
 |webpack-hot-middleware| Adds hot reloading to webpack |
+
+
+## Cool Things I Learned
+
+#Code Snippets for VS Code
+*React Snippets*
+[Find them here...](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets)
+
+Install by entering the following in VS Code:
+CTRL+p
+ext install ReactSnippets
+
+Then the following short cuts:
+rcc - class component
+rccp
+
+rsc - stateless component
+rscp
+
+*Redux + Router snippets*
+
+[Find them here...](https://marketplace.visualstudio.com/items?itemName=discountry.react-redux-react-router-snippets)
+
+_Redux_
+reducer - Redux reducer
+store - Redux store
+selector - Redux selector
+
+_React-Redux_
+mstp - mapStateToProps
+mdtp - mapDispatchToProps
+connect - react-redux connect React component
+
+_react-router_
+imrr - import react router
+imnl - import nav link
+router - react-router Route component
+navlink - react-router NavLink component

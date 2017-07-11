@@ -9,6 +9,9 @@ export default function beerReducer(state = [], action) {
         Object.assign({}, action.beer)
       ];
     
+    case types.LOAD_BEERS_SUCCESS :
+      return action.beers;
+
     default:
       return state;
   }
